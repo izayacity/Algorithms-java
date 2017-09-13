@@ -3,14 +3,14 @@ package Tree;
  * Created by Francis Yang on 5/4/17.
  */
 public class TreeNode {
-    public int data;
+    public int val;
     public TreeNode parent;
     public TreeNode left;
     public TreeNode right;
     private int size = 0;
 
-    public TreeNode(int val) {
-        data = val;
+    public TreeNode(int _val) {
+        val = _val;
         size = 1;
     }
 
@@ -32,16 +32,16 @@ public class TreeNode {
         return size;
     }
 
-    // Binary Search Tree: left.data <= this.data <= right.data
+    // Binary Search Tree: left.val <= this.val <= right.val
     public boolean isBST() {
         if (left != null) {
-            if (data < left.data || !left.isBST()) {
+            if (val < left.val || !left.isBST()) {
                 return false;
             }
         }
 
         if (right != null) {
-            if (data > right.data || !right.isBST()) {
+            if (val > right.val || !right.isBST()) {
                 return false;
             }
         }
@@ -54,13 +54,13 @@ public class TreeNode {
         return 1 + Math.max (leftHeight, rightHeight);
     }
 
-    public TreeNode find(int val) {
-        if (val == data) {
+    public TreeNode find(int _val) {
+        if (_val == val) {
             return this;
-        } else if (val < data) {
-            return left != null ? left.find(val) : null;
+        } else if (_val < val) {
+            return left != null ? left.find(_val) : null;
         } else {
-            return right != null ? right.find(val) : null;
+            return right != null ? right.find(_val) : null;
         }
     }
 
@@ -83,18 +83,18 @@ public class TreeNode {
         return createMinimalBST(arr, 0, arr.length - 1);
     }
 
-    public void insertInOrder(int val) {
-        if (val <= data) {
+    public void insertInOrder(int _val) {
+        if (_val <= val) {
             if (left == null) {
-                setLeftChild(new TreeNode(val));
+                setLeftChild(new TreeNode(_val));
             } else {
-                left.insertInOrder(val);
+                left.insertInOrder(_val);
             }
         } else {
             if (right == null) {
-                setRightChild(new TreeNode(val));
+                setRightChild(new TreeNode(_val));
             } else {
-                right.insertInOrder(val);
+                right.insertInOrder(_val);
             }
         }
         size++;
