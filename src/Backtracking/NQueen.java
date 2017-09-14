@@ -56,7 +56,7 @@ public class NQueen {
 				// Place this queen in board[i][col]
 				board[i][col] = 1;
 
-				// recur to place rest of the queens
+				// Recur to place rest of the queens, incrementing col each time
 				// BackTrack: If placing queen in board[i][col] doesn't lead to a solution then remove queen from board[i][col]
 				if (!solveNQUtil(board, col + 1))
 					board[i][col] = 0;
@@ -79,7 +79,7 @@ public class NQueen {
 		version = 0;
     }
 
-    // driver program to test above function
+    // Driver program to test above function
     public static void main(String args[]) {
         NQueen Queen = new NQueen();
         Queen.solveNQ();
