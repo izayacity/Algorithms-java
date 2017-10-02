@@ -1,47 +1,37 @@
 package Trie;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Solution {
 	public List<String> wordBreak(String s, List<String> wordDict) {
-		List<String> result = new ArrayList<String>();
 		Trie tree = new Trie();
-		StringBuilder word = new StringBuilder();
-
 		// insert each word into the trie
 		for (String str : wordDict) {
 			tree.insert(str);
 		}
-		searchWord(0, s.length() - 1, s, tree, result, word);
-		return result;
+		return wordBreakUtil(s, tree);
 	}
 
-	private boolean searchWord(int start, int end, String s, Trie tree, List<String>result, StringBuilder word) {
-		for (int i = start; i <= end; i++) {
-			String str = s.substring(start, i + 1);
-			if (str.length() > tree.getLongest())		continue;
+	public List<String> wordBreakUtil(String s, Trie trie) {
+		List<String> result = new ArrayList<String>();
+		// check if breakable
+		for (int i = s.length() - 1; i >= 0; i--) {
+			if (trie.contains(s.substring(0, i + 1)))	break;
+			else if (i == 0)	return result;
+		}
+		for (int i = 0; i < s.length() - 1; i++) {
+			if (trie.contains(s.substring(0, i + 1))) {
+				List strs = wordBreakUtil(s.substring(i + 1, s.length()), trie);
 
-			if (i == end) {
-				// append the word string to the result if it's in the trie
-				if (tree.contains(str)) {
-					word.append(str);
-					result.add(word.toString());
-					word.setLength(0);
-					return true;
-				}
-				return false;
-			} else if (tree.contains(str)) {
-				word.append(str);
-				word.append(" ");
-				// backtrack to 0 to start - 1
-				if (!searchWord(i+1, end, s, tree, result, word)) {
-					word.setLength(start);
-					if (start != 0) {
-						word.append(" ");
+				if (!strs.isEmpty()) {
+					for (Iterator<String> it = strs.iterator(); it.hasNext();) {
+						result.add(s.substring(0, i + 1) + " " + it.next());
 					}
 				}
 			}
 		}
-		return false;
+		if(trie.contains(s)) result.add(s);
+		return result;
 	}
 }
