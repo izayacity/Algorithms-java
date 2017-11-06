@@ -2,10 +2,6 @@ package Backtracking;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 class SolutionTest {
 	private Solution solution;
 
@@ -14,6 +10,6 @@ class SolutionTest {
 	}
 	@Test
 	void combinationSum() {
-		System.out.print(solution.combinationSum(610));
+		System.out.print(solution.combinationSum(9));
 	}
 }

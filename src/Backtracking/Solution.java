@@ -1,42 +1,29 @@
 package Backtracking;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Solution {
-	int result = 0;
-	int[] dp;
 
+	int result = 0;
+//Problem: Imagine you are playing a board game. You roll a 6-faced dice
+//and move forward the same number of spaces that you rolled.
+//If the finishing point is “n” spaces away from the starting point,
+//please implement a program that calculates how many possible ways
+//there are to arrive exactly at the finishing point? If n=610,
+//How many possible ways are there to arrive exactly at the finishing point?
+//(My answer is 1064412205 excuted in JVM)
 	public int combinationSum (int target) {
 		int[] nums = {1, 2, 3, 4, 5, 6};
-		dp = new int[target + 1];
 		backtrack(nums, target, 0);
 		return result;
 	}
 
-	private boolean backtrack (int[] nums, int remain, int start) {
-		if (remain < 0)	return false;
+	private void backtrack (int[] nums, int remain, int start) {
+		if (remain < 0)	return;
 		else if (remain == 0) {
 			result++;
-			return true;
 		} else {
 			for (int i = start; i < nums.length; i++) {
-				int tmp = remain - nums[i];
-
-				if (dp[tmp] == 1)
-					return true;
-				else if (dp[tmp] == -1)
-					return false;
-				else {
-					if(backtrack(nums, remain - nums[i], i)) {
-						dp[tmp] = 1;
-					} else {
-						dp[tmp] = -1;
-					}
-					return dp[tmp] == 1;
-				}
+				backtrack(nums, remain - nums[i], i);
 			}
-
 		}
 	}
 }
