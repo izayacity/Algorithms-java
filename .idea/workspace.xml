@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1c0023-8cd5-44dd-a0da-13f02a80ffd0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cracking-java/Backtracking/Solution.class" afterPath="$PROJECT_DIR$/out/production/cracking-java/Backtracking/Solution.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/cracking-java/Backtracking/SolutionTest.class" afterPath="$PROJECT_DIR$/out/test/cracking-java/Backtracking/SolutionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java" afterPath="$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Backtracking/Solution.java" afterPath="$PROJECT_DIR$/src/Backtracking/Solution.java" />
     </list>
@@ -21,14 +24,14 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48465267">
+    <splitter split-orientation="horizontal" split-proportion="0.51038784">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Backtracking/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+                <state relative-caret-position="441">
+                  <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -51,12 +54,9 @@
           <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
-                  <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-                  <folding>
-                    <element signature="e#189#190#0" expanded="true" />
-                    <element signature="e#240#241#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="189">
+                  <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/Misc/Solution.java" />
         <option value="$PROJECT_DIR$/Tests/Misc/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/Tree/Problem.java" />
-        <option value="$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/Solution.java" />
+        <option value="$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java" />
       </list>
     </option>
   </component>
@@ -129,8 +129,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -252,46 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.combinationSum">
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Playground" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="cracking-java" />
-      <envs />
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cracking-java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Trie" />
-      <option name="MAIN_CLASS_NAME" value="Trie.SolutionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest.combinationSumDP">
     <configuration name="SolutionTest.combinationSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -317,6 +279,81 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="SolutionTest.combinationSumDP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cracking-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Backtracking" />
+      <option name="MAIN_CLASS_NAME" value="Backtracking.SolutionTest" />
+      <option name="METHOD_NAME" value="combinationSumDP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.combinationSumDP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cracking-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Backtracking" />
+      <option name="MAIN_CLASS_NAME" value="Backtracking.SolutionTest" />
+      <option name="METHOD_NAME" value="combinationSumDP2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.combinationSumDTM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="cracking-java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Backtracking" />
+      <option name="MAIN_CLASS_NAME" value="Backtracking.SolutionTest" />
+      <option name="METHOD_NAME" value="combinationSumDTM" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="SolutionTest.fibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -330,31 +367,6 @@
       <option name="PACKAGE_NAME" value="Misc" />
       <option name="MAIN_CLASS_NAME" value="Misc.SolutionTest" />
       <option name="METHOD_NAME" value="fibonacci" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TrieTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="cracking-java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Trie" />
-      <option name="MAIN_CLASS_NAME" value="Trie.TrieTest" />
-      <option name="METHOD_NAME" value="contains" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -791,19 +803,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TrieTest.contains" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Playground" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.fibonacci" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSum" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.fibonacci" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSum" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSumDP" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSumDTM" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSumDP2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSum" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.fibonacci" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Playground" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TrieTest.contains" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSumDP" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSumDP2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSum" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.combinationSumDTM" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -846,43 +858,45 @@
       <workItem from="1509873659381" duration="1030000" />
       <workItem from="1509919041167" duration="7151000" />
       <workItem from="1509969221233" duration="261000" />
+      <workItem from="1510015674653" duration="4492000" />
+      <workItem from="1510020360539" duration="2428000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 47m 32s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 03m 32s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 48m 15s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 03m 54s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 54m 51s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 05m 07s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 55m 01s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 05m 15s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 58m 49s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 06m 29s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 59m 01s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 17m 38s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 02h 59m 49s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 17m 54s.xml">
+      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 03h 06m 16s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP2 - 2017.11.06 at 18h 00m 33s.xml">
+      <configuration name="SolutionTest.combinationSumDP2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_combinationSum - 2017.11.06 at 03h 56m 49s.xml">
-      <configuration name="SolutionTest.combinationSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP2 - 2017.11.06 at 18h 00m 44s.xml">
+      <configuration name="SolutionTest.combinationSumDP2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_fibonacci - 2017.11.05 at 01h 26m 38s.xml">
-      <configuration name="SolutionTest.fibonacci" configurationId="JUnit" />
+    <history-entry file="SolutionTest_combinationSumDP2 - 2017.11.06 at 18h 00m 53s.xml">
+      <configuration name="SolutionTest.combinationSumDP2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75687000" />
+    <option name="totallyTimeSpent" value="82607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,7 +908,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -904,8 +918,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972386" sideWeight="0.5034542" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23109691" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19653492" sideWeight="0.49654576" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27382874" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972386" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -915,8 +929,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1250,9 +1264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,7 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,21 +1333,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Backtracking/Solution.java">
+    <entry file="file://$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="189">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
