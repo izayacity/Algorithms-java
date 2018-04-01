@@ -1,12 +1,10 @@
 package Misc;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 class SolutionTest {
 	private Solution solution;
-
 	SolutionTest() {
 		solution = new Solution();
 	}
@@ -30,5 +28,4 @@ class SolutionTest {
 
 		System.out.println(solution.fibonacci(8181));
 	}
-
 }

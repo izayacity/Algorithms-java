@@ -1,9 +1,9 @@
 package Trie;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 import java.util.List;
 import java.util.Arrays;
-import static org.junit.jupiter.api.Assertions.*;
 
 class TrieTest {
 	@Test

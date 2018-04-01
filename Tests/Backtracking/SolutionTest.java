@@ -1,6 +1,6 @@
 package Backtracking;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 class SolutionTest {
 	private Solution solution;
