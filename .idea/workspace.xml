@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1c0023-8cd5-44dd-a0da-13f02a80ffd0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cache/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Cache/RandomizedCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cache/RandomizedCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,28 +22,17 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5458128">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TwitterTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
+          <file leaf-file-name="RandomizedCollection.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Cache/RandomizedCollection.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
+                <state relative-caret-position="519">
+                  <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LFUCache.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Cache/LFUCache.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#1287#1288#0" expanded="true" />
+                    <element signature="e#1336#1337#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -53,20 +42,14 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LFUCacheTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java">
+          <file leaf-file-name="RandomizedCollectionTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tests/Cache/RandomizedCollectionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
-                  <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Twitter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="202">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="139">
+                  <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -132,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/Cache/LFU.java" />
         <option value="$PROJECT_DIR$/src/Cache/LFUCache.java" />
         <option value="$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/Cache/RandomizedCollection.java" />
+        <option value="$PROJECT_DIR$/Tests/Cache/RandomizedCollectionTest.java" />
       </list>
     </option>
   </component>
@@ -290,20 +275,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LFUCacheTest.get">
+  <component name="RunManager" selected="JUnit.RandomizedCollectionTest.getRandomTest2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="MST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.MST" />
-      <module name="cracking-java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Misc.Solution" />
@@ -377,19 +351,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.combinationSumDP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomizedCollectionTest.getRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cracking-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="Cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Backtracking" />
-      <option name="MAIN_CLASS_NAME" value="Backtracking.SolutionTest" />
-      <option name="METHOD_NAME" value="combinationSumDP" />
+      <option name="PACKAGE_NAME" value="Cache" />
+      <option name="MAIN_CLASS_NAME" value="Cache.RandomizedCollectionTest" />
+      <option name="METHOD_NAME" value="getRandom" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RandomizedCollectionTest.getRandomTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cracking-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Cache" />
+      <option name="MAIN_CLASS_NAME" value="Cache.RandomizedCollectionTest" />
+      <option name="METHOD_NAME" value="getRandomTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -776,19 +773,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest.combinationSumDP" />
-      <item itemvalue="Application.MST" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="JUnit.TwitterTest.getNewsFeed" />
       <item itemvalue="JUnit.LFUCacheTest.get" />
+      <item itemvalue="JUnit.RandomizedCollectionTest.getRandom" />
+      <item itemvalue="JUnit.RandomizedCollectionTest.getRandomTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomizedCollectionTest.getRandomTest2" />
+        <item itemvalue="JUnit.RandomizedCollectionTest.getRandom" />
         <item itemvalue="JUnit.LFUCacheTest.get" />
         <item itemvalue="JUnit.TwitterTest.getNewsFeed" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.MST" />
-        <item itemvalue="JUnit.SolutionTest.combinationSumDP" />
       </list>
     </recent_temporary>
   </component>
@@ -843,44 +840,44 @@
       <workItem from="1522143412199" duration="4011000" />
       <workItem from="1522579942157" duration="832000" />
       <workItem from="1522581261746" duration="5681000" />
-      <workItem from="1522699946738" duration="2204000" />
+      <workItem from="1522699946738" duration="4963000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 05m 07s.xml">
-      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 05m 15s.xml">
-      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 06m 29s.xml">
-      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 17m 38s.xml">
-      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP - 2017.11.06 at 18h 17m 54s.xml">
-      <configuration name="SolutionTest.combinationSumDP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP2 - 2017.11.06 at 18h 00m 33s.xml">
-      <configuration name="SolutionTest.combinationSumDP2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP2 - 2017.11.06 at 18h 00m 44s.xml">
-      <configuration name="SolutionTest.combinationSumDP2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_combinationSumDP2 - 2017.11.06 at 18h 00m 53s.xml">
-      <configuration name="SolutionTest.combinationSumDP2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterTest_getNewsFeed - 2018.04.02 at 01h 39m 58s.xml">
-      <configuration name="TwitterTest.getNewsFeed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TwitterTest_getNewsFeed - 2018.04.02 at 01h 42m 16s.xml">
       <configuration name="TwitterTest.getNewsFeed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LFUCacheTest_get - 2018.04.03 at 17h 51m 27s.xml">
+      <configuration name="LFUCacheTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandom - 2018.04.03 at 20h 56m 10s.xml">
+      <configuration name="RandomizedCollectionTest.getRandom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.03 at 21h 02m 55s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.04 at 02h 02m 21s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.04 at 02h 02m 37s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.04 at 02h 02m 50s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.04 at 02h 05m 23s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.04 at 02h 06m 31s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RandomizedCollectionTest_getRandomTest2 - 2018.04.04 at 02h 11m 40s.xml">
+      <configuration name="RandomizedCollectionTest.getRandomTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100762000" />
+    <option name="totallyTimeSpent" value="103521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -904,12 +901,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.504884" side_tool="true" visible="true" weight="0.20615384" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Run" order="10" weight="0.1941392" />
+      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.2985348" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49654576" weight="0.19653492" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11233211" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.081807084" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1007,9 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,8 +1278,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cache/LFUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="-596">
           <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1295,17 +1299,28 @@
     <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
+          <caret line="2" column="29" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cache/RandomizedCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java">
+    <entry file="file://$PROJECT_DIR$/Tests/Cache/RandomizedCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="139">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
