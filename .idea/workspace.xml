@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1c0023-8cd5-44dd-a0da-13f02a80ffd0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/Twitter/TwitterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twitter/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cache/LFUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Backtracking/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Misc/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Misc/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Trie/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Trie/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Trie/TrieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Trie/TrieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cracking-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cracking-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cracking-java/Misc/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cracking-java/Misc/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/cracking-java/Backtracking/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/cracking-java/Backtracking/SolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/cracking-java/Misc/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/cracking-java/Misc/SolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/cracking-java/Trie/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/cracking-java/Trie/SolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/cracking-java/Trie/TrieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/cracking-java/Trie/TrieTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Misc/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Misc/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,18 +25,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Twitter.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
+          <file leaf-file-name="TwitterTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+                <state relative-caret-position="14">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
                   <folding>
-                    <element signature="e#348#349#0" expanded="true" />
-                    <element signature="e#373#374#0" expanded="true" />
-                    <element signature="e#407#408#0" expanded="true" />
-                    <element signature="e#435#436#0" expanded="true" />
-                    <element signature="e#807#808#0" expanded="true" />
-                    <element signature="e#838#839#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LFUCache.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Cache/LFUCache.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -56,15 +52,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="TwitterTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="LFUCacheTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="426">
-                  <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="42">
+                  <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Twitter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="202">
+                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -127,6 +129,9 @@
         <option value="$PROJECT_DIR$/src/Misc/Solution.java" />
         <option value="$PROJECT_DIR$/Tests/Twitter/TwitterTest.java" />
         <option value="$PROJECT_DIR$/src/Twitter/Twitter.java" />
+        <option value="$PROJECT_DIR$/src/Cache/LFU.java" />
+        <option value="$PROJECT_DIR$/src/Cache/LFUCache.java" />
+        <option value="$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java" />
       </list>
     </option>
   </component>
@@ -152,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -165,6 +171,12 @@
               <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
@@ -205,6 +217,12 @@
               <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
               <item name="Misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,7 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,11 +263,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Cache" />
       <recent name="Twitter" />
       <recent name="Backtracking" />
       <recent name="Misc" />
       <recent name="Trie" />
-      <recent name="Trie.Test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -273,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwitterTest.getNewsFeed">
+  <component name="RunManager" selected="JUnit.LFUCacheTest.get">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -337,6 +354,29 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
+    <configuration name="LFUCacheTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cracking-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Cache" />
+      <option name="MAIN_CLASS_NAME" value="Cache.LFUCacheTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="SolutionTest.combinationSumDP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cracking-java" />
       <extension name="coverage">
@@ -350,29 +390,6 @@
       <option name="PACKAGE_NAME" value="Backtracking" />
       <option name="MAIN_CLASS_NAME" value="Backtracking.SolutionTest" />
       <option name="METHOD_NAME" value="combinationSumDP" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SolutionTest.combinationSumDP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cracking-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Backtracking" />
-      <option name="MAIN_CLASS_NAME" value="Backtracking.SolutionTest" />
-      <option name="METHOD_NAME" value="combinationSumDP2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -760,18 +777,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SolutionTest.combinationSumDP" />
-      <item itemvalue="JUnit.SolutionTest.combinationSumDP2" />
       <item itemvalue="Application.MST" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="JUnit.TwitterTest.getNewsFeed" />
+      <item itemvalue="JUnit.LFUCacheTest.get" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LFUCacheTest.get" />
         <item itemvalue="JUnit.TwitterTest.getNewsFeed" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MST" />
         <item itemvalue="JUnit.SolutionTest.combinationSumDP" />
-        <item itemvalue="JUnit.SolutionTest.combinationSumDP2" />
       </list>
     </recent_temporary>
   </component>
@@ -825,7 +842,8 @@
       <workItem from="1521386426210" duration="1616000" />
       <workItem from="1522143412199" duration="4011000" />
       <workItem from="1522579942157" duration="832000" />
-      <workItem from="1522581261746" duration="3682000" />
+      <workItem from="1522581261746" duration="5681000" />
+      <workItem from="1522699946738" duration="2204000" />
     </task>
     <servers />
   </component>
@@ -862,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96559000" />
+    <option name="totallyTimeSpent" value="100762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,15 +901,15 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.504884" side_tool="true" visible="true" weight="0.2779487" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.504884" side_tool="true" visible="true" weight="0.20615384" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Run" order="10" weight="0.1941392" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49654576" weight="0.19653492" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14652015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11233211" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -899,45 +917,45 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39920557" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Properties" order="9" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Properties" order="9" />
       <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Designer" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Run" order="10" weight="0.43134087" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.18967229" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972386" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49654576" weight="0.19653492" />
-      <window_info anchor="right" id="Run" order="10" weight="0.43134087" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Properties" order="9" />
       <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10223642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972386" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5034542" side_tool="true" weight="0.32972386" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49654576" weight="0.19653492" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.18967229" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10223642" />
+      <window_info id="Favorites" order="7" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -978,6 +996,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2163">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trie/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -991,9 +1026,6 @@
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Backtracking/NQueen.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Backtracking/Sudoku.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1044,27 +1076,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Backtracking/NQueen.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1100,12 +1117,6 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/problem4_1_test.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -1264,28 +1275,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="202">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cache/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
+    <entry file="file://$PROJECT_DIR$/Tests/Twitter/TwitterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="14">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
           <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Cache/LFUCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
