@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1c0023-8cd5-44dd-a0da-13f02a80ffd0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +31,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GFG.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GFG.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph/GFG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="84">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/Cache/RandomizedCollection.java" />
         <option value="$PROJECT_DIR$/Tests/Cache/RandomizedCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/Graph/GFG.java" />
+        <option value="$PROJECT_DIR$/src/Graph/Graph.java" />
       </list>
     </option>
   </component>
@@ -260,12 +275,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GFG">
+  <component name="RunManager" selected="Application.Graph">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.GFG" />
+      <module name="cracking-java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Graph" />
       <module name="cracking-java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -372,29 +398,6 @@
       <option name="PACKAGE_NAME" value="Cache" />
       <option name="MAIN_CLASS_NAME" value="Cache.RandomizedCollectionTest" />
       <option name="METHOD_NAME" value="getRandomTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TwitterTest.getNewsFeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cracking-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Twitter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Twitter" />
-      <option name="MAIN_CLASS_NAME" value="Twitter.TwitterTest" />
-      <option name="METHOD_NAME" value="getNewsFeed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -758,19 +761,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TwitterTest.getNewsFeed" />
       <item itemvalue="JUnit.LFUCacheTest.get" />
       <item itemvalue="JUnit.RandomizedCollectionTest.getRandom" />
       <item itemvalue="JUnit.RandomizedCollectionTest.getRandomTest2" />
       <item itemvalue="Application.GFG" />
+      <item itemvalue="Application.Graph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.GFG" />
         <item itemvalue="JUnit.RandomizedCollectionTest.getRandomTest2" />
         <item itemvalue="JUnit.RandomizedCollectionTest.getRandom" />
         <item itemvalue="JUnit.LFUCacheTest.get" />
-        <item itemvalue="JUnit.TwitterTest.getNewsFeed" />
       </list>
     </recent_temporary>
   </component>
@@ -827,7 +830,7 @@
       <workItem from="1522581261746" duration="5681000" />
       <workItem from="1522699946738" duration="5054000" />
       <workItem from="1522779824534" duration="141000" />
-      <workItem from="1522860861480" duration="1744000" />
+      <workItem from="1522860861480" duration="3170000" />
     </task>
     <servers />
   </component>
@@ -864,7 +867,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105497000" />
+    <option name="totallyTimeSpent" value="106923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,7 +892,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49654576" weight="0.19653492" />
-      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.2985348" />
+      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.36324787" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -980,16 +983,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tests/Cache/RandomizedCollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Twitter/Twitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2163">
@@ -1319,8 +1312,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/GFG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="84">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
