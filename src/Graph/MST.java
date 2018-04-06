@@ -36,17 +36,18 @@ public class MST {
 		parent[0] = -1;			// First node is the root of the MST
 
 		// minKey() is O(V) so it’s O(V^2)
-		for (int i = 0; i < V - 1; i++) {
+		// The MST will have V vertices, with V - 1 edges
+		for (int i = 0; i < V  - 1; i++) {
 			// Pick the minimum key vertex from the set of vertices
 			// not yet included in the MST
 			int u = minKey(key, used);
 
 			// Add the picked vertex to the MST set
-			try {
+//			try {
 				used[u] = true;
-			} catch (Exception e) {
-				System.out.println("Error: Invalid used[] array index -1");
-			}
+//			} catch (Exception e) {
+//				System.out.println("Error: Invalid used[] array index -1");
+//			}
 
 			// Update key value and parent index of the adjacent
 			// vertices of the picked picked vertex.
