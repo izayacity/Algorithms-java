@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1c0023-8cd5-44dd-a0da-13f02a80ffd0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DP/EditDistance/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/EditDistance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LIS/LIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LIS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/FindMin/FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/FindMin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MatrixPath/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/MatrixPath/MatrixPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cracking-java/DP/LCS/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cracking-java/DP/LCS/LCS.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +24,14 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49642858">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/DP/EditDistance/Main.java">
+        <leaf>
+          <file leaf-file-name="MatrixPath.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DP/MatrixPath/MatrixPath.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="63">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -41,11 +40,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="EditDistance.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/DP/EditDistance/EditDistance.java">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DP/MatrixPath/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+                <state relative-caret-position="189">
+                  <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -86,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Tree/Test.java" />
         <option value="$PROJECT_DIR$/src/Tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Tree/BTreePrinter.java" />
         <option value="$PROJECT_DIR$/src/Tree/Solution.java" />
@@ -133,6 +130,12 @@
         <option value="$PROJECT_DIR$/src/DP/LIS/LIS.java" />
         <option value="$PROJECT_DIR$/src/DP/EditDistance/Main.java" />
         <option value="$PROJECT_DIR$/src/DP/EditDistance/EditDistance.java" />
+        <option value="$PROJECT_DIR$/src/DP/GFG/Main.java" />
+        <option value="$PROJECT_DIR$/src/DP/GFG/GFG.java" />
+        <option value="$PROJECT_DIR$/src/DP/FindMin/GFG.java" />
+        <option value="$PROJECT_DIR$/src/DP/FindMin/Main.java" />
+        <option value="$PROJECT_DIR$/src/DP/MatrixPath/Main.java" />
+        <option value="$PROJECT_DIR$/src/DP/MatrixPath/MatrixPath.java" />
       </list>
     </option>
   </component>
@@ -206,6 +209,13 @@
               <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DP" type="462c0819:PsiDirectoryNode" />
+              <item name="FindMin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
               <item name="Knapsack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,6 +231,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DP" type="462c0819:PsiDirectoryNode" />
               <item name="LIS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cracking-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+              <item name="MatrixPath" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cracking-java" type="b2602c69:ProjectViewProjectNode" />
@@ -343,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -391,13 +408,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dijkstra.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.MatrixPath.Main" />
       <module name="cracking-java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dijkstra.*" />
+          <option name="PATTERN" value="DP.MatrixPath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.FindMin.Main" />
+      <module name="cracking-java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.FindMin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -793,19 +821,19 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -865,7 +893,7 @@
       <workItem from="1522860861480" duration="3645000" />
       <workItem from="1522923650454" duration="15549000" />
       <workItem from="1523205525146" duration="4689000" />
-      <workItem from="1523252597341" duration="8829000" />
+      <workItem from="1523252597341" duration="15447000" />
     </task>
     <servers />
   </component>
@@ -902,7 +930,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136465000" />
+    <option name="totallyTimeSpent" value="143083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -927,11 +955,11 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49654576" weight="0.19653492" />
-      <window_info active="true" anchor="right" id="Run" order="10" visible="true" weight="0.20879121" />
+      <window_info anchor="right" id="Run" order="10" visible="true" weight="0.2026862" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32972386" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10744811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14041515" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1018,34 +1046,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/problem4_1_test.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1365,8 +1365,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/EditDistance/EditDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        <state relative-caret-position="378">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/FindMin/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/FindMin/FindMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/MatrixPath/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/MatrixPath/MatrixPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
