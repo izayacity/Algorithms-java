@@ -18,14 +18,14 @@ public class TreeNode {
         if (_left == null)
             return;
         left = _left;
-        left.parent = this;
+        _left.parent = this;
     }
 
     private void setRightChild(TreeNode _right) {
         if (_right == null)
             return;
         right = _right;
-        right.parent = this;
+        _right.parent = this;
     }
 
     public int size() {
