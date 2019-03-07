@@ -12,7 +12,7 @@ import java.util.List;
  * Description: DP
  */
 public class Problem {
-	////	Problem 1
+////	Problem 1
 ////	Given 3 numbers {1, 3, 5}, we need to tell the total number of ways we can form a number 'N'
 ////	using the sum of the given three numbers.(allowing repetitions and different arrangements).
 ////	Total number of ways to form 6 is: 8
@@ -29,17 +29,14 @@ public class Problem {
 			return 0;
 		}
 		int[] dp = new int[n + 1];
-		dp[0] = 1;
 		Arrays.fill(dp, -1);
+		dp[0] = 1;
 		return formNumberUtil(n, list, dp);
 	}
 
 	private int formNumberUtil(int n, List<Integer> list, int[] dp) {
 		if (n < 0) {
 			return 0;
-		}
-		if (n == 0) {
-			return 1;
 		}
 		if (dp[n] != -1) {
 			return dp[n];
@@ -51,6 +48,7 @@ public class Problem {
 		return dp[n];
 	}
 
+////	Problem 2
 //	The Longest Increasing Subsequence (LIS) problem is to find the length of the longest subsequence
 // of a given sequence such that all elements of the subsequence are sorted in increasing order.
 // For example, the length of LIS for {10, 22, 9, 33, 21, 50, 41, 60, 80} is 6 and LIS is {10, 22, 33, 50, 60, 80}.
@@ -78,7 +76,7 @@ public class Problem {
 		return dp[start][end] = Math.max(lisUtil(arr, start, end	- 1, dp) + (arr[end	- 1] <= arr[end] ? 1 : 0),
 				lisUtil(arr, start + 1, end, dp) + (arr[start] <= arr[start + 1] ? 1 : 0));
 	}
-
+	////	Problem 3
 	// n is the number of eggs
 	// k is the number of floors
 	public int eggDropping(int n, int k) {
