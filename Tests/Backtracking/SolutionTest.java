@@ -1,6 +1,7 @@
 package Backtracking;
 
-import org.junit.Test;
+import org.junit.Assert;
+import org.junit.jupiter.api.Test;
 
 class SolutionTest {
 	private Solution solution;
@@ -9,19 +10,16 @@ class SolutionTest {
 		solution = new Solution();
 	}
 	@Test
-	void combinationSum() {
-		System.out.print(solution.combinationSum(4));
+	void rollDice() {
+		Assert.assertEquals(5, solution.rollDice(4));
 	}
+
 	@Test
-	void combinationSumDP() {
-		System.out.print(solution.combinationSumDP(599));
-	}
-	@Test
-	void combinationSumDTM() {
-		System.out.print(solution.combinationSumDTM(3));
-	}
-	@Test
-	void combinationSumDP2() {
-		System.out.print(solution.combinationSumDP2(9));
+	void findWays() {
+		Assert.assertEquals(0, solution.findWays(4, 2, 1));
+		Assert.assertEquals(2, solution.findWays(2, 2, 3));
+		Assert.assertEquals(21, solution.findWays(6, 3, 8));
+		Assert.assertEquals(4, solution.findWays(4, 2, 5));
+		Assert.assertEquals(6, solution.findWays(4, 3, 5));
 	}
 }
